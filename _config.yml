@@ -35,7 +35,7 @@ description: "웹 개발자 최경준의 개인 포트폴리오 및 이력서 �
 author: "최경준"
 baseurl: ""
 # the subpath of your site, e.g. /blog
-url: "https://choi-gj1.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://choigj1213.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 date_format: "%Y-%m-%d"
 
 # paginations & permalinks
