@@ -5,278 +5,279 @@
 
 ### Hero [ hero-image ]
 hero:
-  image: "assets/img/profile2.png"
-  image_alt: "Zoé Miller"
-  title: "<b>Zoé</b> Miller"
-  before_title: "Hello, <b>my name is</b>"
-  after_title: "I am <strong>Web Developer</strong>"
-  description: "From France, Paris. I have rich experience in web design, also I am good at wordpress. I love to talk with you about our unique."
+  image: "assets/img/profile.jpg"
+  image_alt: "최경준"
+  title: "<b>KYEONGJUN</b> CHOI"
+  before_title: "안녕하세요, <b>제 이름은</b>"
+  after_title: "강서폴리텍 사이버보안과 <br> 2학년 재학중인 최경준입니다."
+  description: "사이버 보안을 공부하고 있습니다."
   button1:
-    label: "Download CV"
-    link: "https://drive.google.com/"
+    label: "github 바로가기"
+    link: "https://github.com/choi-gj"
   button2:
-    label: "My Skills"
-    link: "#skills-section"
-  bg_title: "Web Developer"
-  info:
-    - num: "12 <strong>+</strong>"
-      value: "Years of <strong>Experience</strong>"
+    label: "포트폴리오 보기"
+    link: "#portfolio-section"
+  bg_title: "웹 개발"
 
-    - num: "330"
-      value: "Completed <strong>Projects</strong>"
 
 ### Services [ services ]
 services:
-  title: "What I Do"
-  subtitle: "my <b>Services</b>"
+  title: "전문 분야"
+  subtitle: "제공 <b>서비스</b>"
   bg_title: "Services"
 
   items:
-    - title: "Web Design &amp; Logo"
-      subtitle: "Web Development"
-      text: "Web designers craft the overall vision &amp; plan for a website layout. Professional logo development: Business, Company, or Personal."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
+    - title: "웹 개발"
+      subtitle: "백엔드"
+      text: "반응형 웹사이트 제작 및 API 개발"
+      button_label: "자세히 보기"
+      button_link: "#contacts-section"
 
-    - title: "iOS &amp; Android"
-      subtitle: "Apps Development"
-      text: "Design Software applications to run on mobile devices. Modern and mobile-ready application that will help you reach all of your marketing."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
+    - title: "앱 개발"
+      subtitle: "IOS/Android"
+      text: "네이티브 및 하이브리드 앱 개발"
+      button_label: "자세히 보기"
+      button_link: "#contacts-section"
 
-    - title: "Unity &amp; Unreal Engine"
-      subtitle: "Game Development"
-      text: "Creating games &amp; describes the design, development and release of a game. Developing unique mobile android and ios games."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
+    - title: "암호화"
+      subtitle: "cryptography"
+      text: "동형 암호 이용한 선형 연산 구현"
+      button_label: "자세히 보기"
+      button_link: "#contacts-section"
 
-    - title: "Google Ads"
-      subtitle: "Advertising"
-      text: "Advertising services include: Google search result pages, gmails, YouTube and other websites participated in Google Ads program."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
+    # - title: "Unity &amp; Unreal Engine"
+    #   subtitle: "Game Development"
+    #   text: "Creating games &amp; describes the design, development and release of a game. Developing unique mobile android and ios games."
+    #   button_label: "See Pricing"
+    #   button_link: "#pricing-section"
 
-    - title: "Sound Track"
-      subtitle: "Music Writing"
-      text: "Music copying, writing, creating, transcription and composition services."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
+    # - title: "Google Ads"
+    #   subtitle: "Advertising"
+    #   text: "Advertising services include: Google search result pages, gmails, YouTube and other websites participated in Google Ads program."
+    #   button_label: "See Pricing"
+    #   button_link: "#pricing-section"
+
+    # - title: "Sound Track"
+    #   subtitle: "Music Writing"
+    #   text: "Music copying, writing, creating, transcription and composition services."
+    #   button_label: "See Pricing"
+    #   button_link: "#pricing-section"
 
 ### Skills [ skills ]
 skills:
-  title: "Professional Skills"
-  subtitle: "my <b>Talent</b>"
+  title: "기술 역량"
+  subtitle: "전문 <b>스킬</b>"
   bg_title: "Skills"
-
-  column1:
-    items:
-      - label: "PHP" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "85" #0-100 progress in %
-
-      - label: "Python" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "75" #0-100 progress in %
 
   column2:
     items:
-      - label: "JavaScript" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "75" #0-100 progress in %
+      - label: "Linux" #0-10 progress in dots
+        text: "Linux 환경에서 snort와 iptables 규칙들을 이용한 방화벽 설계를 해 보았습니다."
+        value: "60" #0-100 progress in %
 
-      - label: "React" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - label: "JavaScript" #0-10 progress in dots
+        text: "교과 커리큘럼을 통한 JavaScript 웹 어플리케이션 개발 강의를 수강했습니다. "
+        value: "50" #0-100 progress in %
+
+      - label: "cryptography" #0-10 progress in dots
+        text: "동형 암호를 통한 선형 연산을 구현해 보았습니다."
         value: "70" #0-100 progress in %
 
-  column3:
-    items:
-      - label: "WordPress" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "90" #0-100 progress in %
+  # column2:
+  #   items:
+  #     - label: "JavaScript" #0-10 progress in dots
+  #       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  #       value: "75" #0-100 progress in %
 
-      - label: "Adobe XD" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "80" #0-100 progress in %
+  #     - label: "React" #0-10 progress in dots
+  #       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  #       value: "70" #0-100 progress in %
+
+  # column3:
+  #   items:
+  #     - label: "WordPress" #0-10 progress in dots
+  #       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  #       value: "90" #0-100 progress in %
+
+  #     - label: "Adobe XD" #0-10 progress in dots
+  #       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  #       value: "80" #0-100 progress in %
 
 ### Resume [ resume ]
 resume:
-  title: "Resume"
-  subtitle: "my <b>Story</b>"
+  title: "이력서"
+  subtitle: "학력 및 경력"
   bg_title: "History"
 
   education:
-    title: "Education"
+    title: "학력"
     items:
-      - name: "CoderHouse Courses"
-        subname: "Backend Programming"
-        period: "2014 - 2016"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "한국폴리텍대학교"
+        subname: "사이버보안과"
+        period: "2024 - 2025"
+        text: "강서캠퍼스 사이버보안과 2학년 재학중입니다."
 
-      - name: "Lviv National Academy of Arts"
-        subname: "Faculty of Design"
-        period: "2012 - 2014"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      # - name: "가림고등학교"
+      #   subname: "이과"
+      #   period: "2016 - 2019"
+      #   text: "가림고등학교에서 이과 졸업하였습니다"
 
-      - name: "IT Future"
-        subname: "High School"
-        period: "2010 - 2012"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      # - name: "IT Future"
+      #   subname: "High School"
+      #   period: "2010 - 2012"
+      #   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
   experience:
-    title: "Experience"
+    title: "팀 프로젝트"
     items:
-      - name: "UI Head &amp; Manager"
-        subname: "Soft Tech Inc."
-        period: "2020 - <b>Present</b>"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "한국폴리텍대학교"
+        subname: "사이버보안과"
+        period: "2025 - <b>현재</b>"
+        text: "암호화 방식 중 동형 암호의 선형 연산을 하는 팀 프로젝트 진행"
 
-      - name: "UI / UX Specialist"
-        subname: "Kana Design Studio"
-        period: "2018 - 2020"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    #   - name: "웹 개발자"
+    #     subname: "XYZ 스튜디오"
+    #     period: "2019 - 2021"
+    #     text: "React와 Node.js를 활용한 웹 애플리케이션 개발. RESTful API 설계 및 구현. 사용자 경험 개선으로 전환율 15% 향상."
 
-      - name: "Plugins Developer"
-        subname: "Fiverr.com"
-        period: "2016 - 2018"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      # - name: "Plugins Developer"
+      #   subname: "Fiverr.com"
+      #   period: "2016 - 2018"
+      #   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 
 ### Testimonials [ testimonials ]
-testimonials:
-  title: "Testimonials"
-  subtitle: "what <b>Customers Say</b>"
-  bg_title: "Reviews"
+# testimonials:
+#   title: "Testimonials"
+#   subtitle: "what <b>Customers Say</b>"
+#   bg_title: "Reviews"
 
-  items:
-    - image: "assets/img/testimonials/testi4-2.jpg"
-      name: "Barbara Wilson"
-      role: "CEO Company"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#   items:
+#     - image: "assets/img/testimonials/testi4-2.jpg"
+#       name: "Barbara Wilson"
+#       role: "CEO Company"
+#       text: "깔끔한 UI로 만족도 높은 서비스를 제공받았습니다."
 
-    - image: "assets/img/testimonials/testi4-1.jpg"
-      name: "Charlie Smith"
-      role: "Designer"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#     - image: "assets/img/testimonials/testi4-1.jpg"
+#       name: "Charlie Smith"
+#       role: "Designer"
+#       text: "완성도 높은 프로젝트로 믿고 맡길 수 있습니다."
 
-    - image: "assets/img/testimonials/testi4-4.jpg"
-      name: "Roy Wang"
-      role: "Manager GYM"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    # - image: "assets/img/testimonials/testi4-4.jpg"
+    #   name: "Roy Wang"
+    #   role: "Manager GYM"
+    #   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-    - image: "assets/img/testimonials/testi4-3.jpg"
-      name: "Jennifer Smith"
-      role: "CEO &amp; Founder"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    # - image: "assets/img/testimonials/testi4-3.jpg"
+    #   name: "Jennifer Smith"
+    #   role: "CEO &amp; Founder"
+    #   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-    - image: "assets/img/testimonials/testi4-5.jpg"
-      name: "Paul Freeman"
-      role: "Photographer"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    # - image: "assets/img/testimonials/testi4-5.jpg"
+    #   name: "Paul Freeman"
+    #   role: "Photographer"
+    #   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 
 ### Pricing [ pricing ]
-pricing:
-  title: "Pricing"
-  subtitle: "my <b>Price Board</b>"
-  bg_title: "Pricing"
+# pricing:
+#   title: "Pricing"
+#   subtitle: "my <b>Price Board</b>"
+#   bg_title: "Pricing"
 
-  items:
-    - name: "Hourley Basis"
-      center: false
-      price: "39 <b>$</b>"
-      price_after: "Hour"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
-      list:
-        - value: "Brand Design"
-          included: true
-        - value: "Web Development"
-          included: true
-        - value: "Advertising"
-          included: false
-        - value: "Photography"
-          included: false
-      button:
-        label: "Start Project"
-        link: "#contact-section"
+#   items:
+#     - name: "Hourley Basis"
+#       center: false
+#       price: "39 <b>$</b>"
+#       price_after: "Hour"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+#       list:
+#         - value: "Brand Design"
+#           included: true
+#         - value: "Web Development"
+#           included: true
+#         - value: "Advertising"
+#           included: false
+#         - value: "Photography"
+#           included: false
+#       button:
+#         label: "Start Project"
+#         link: "#contact-section"
 
-    - name: "Freelancing"
-      center: true
-      label: "Popular"
-      price: "259 <b>$</b>"
-      price_after: "Week"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
-      list:
-        - value: "Brand Design"
-          included: true
-        - value: "Web Development"
-          included: true
-        - value: "Advertising"
-          included: true
-        - value: "Photography"
-          included: false
-      button:
-        label: "Start Project"
-        link: "#contact-section"
+#     - name: "Freelancing"
+#       center: true
+#       label: "Popular"
+#       price: "259 <b>$</b>"
+#       price_after: "Week"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+#       list:
+#         - value: "Brand Design"
+#           included: true
+#         - value: "Web Development"
+#           included: true
+#         - value: "Advertising"
+#           included: true
+#         - value: "Photography"
+#           included: false
+#       button:
+#         label: "Start Project"
+#         link: "#contact-section"
 
-    - name: "Full Time"
-      center: false
-      price: "1.249 <b>$</b>"
-      price_after: "Month"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
-      list:
-        - value: "Brand Design"
-          included: true
-        - value: "Web Development"
-          included: true
-        - value: "Advertising"
-          included: true
-        - value: "Photography"
-          included: true
-      button:
-        label: "Start Project"
-        link: "#contact-section"
+#     - name: "Full Time"
+#       center: false
+#       price: "1.249 <b>$</b>"
+#       price_after: "Month"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+#       list:
+#         - value: "Brand Design"
+#           included: true
+#         - value: "Web Development"
+#           included: true
+#         - value: "Advertising"
+#           included: true
+#         - value: "Photography"
+#           included: true
+#       button:
+#         label: "Start Project"
+#         link: "#contact-section"
 
 
 ### Blog [ blog ]
 #items generates from dir /_posts/*
 blog:
-  title: "Latest Blog"
-  subtitle: "my <b>Articles and Advice</b>"
+  title: "블로그"
+  subtitle: "기술 <b>아티클</b>"
   bg_title: "Blog"
   button:
-    label: "View Blog"
+    label: "모든 글 보기"
     link: "blog/"
 
 
 ### Contact [ contacts ]
 contacts:
-  title: "Contact Me"
-  subtitle: "Let’s <b>Talk About Ideas</b>"
+  title: "연락하기"
+  subtitle: "문의하기"
   bg_title: "Contact Me"
 
   list:
-    - label: "Address"
+    - label: "주소"
       icon: "far fa-map"
-      text: "North Tower, Toronto, Canada"
+      text: "서울특별시 강남구"
 
-    - label: "Freelance"
-      icon: "far fa-user"
-      text: "Available Right Now"
-
-    - label: "Email"
+    - label: "이메일"
       icon: "far fa-envelope"
-      text: "zoe.miller@mydomain.com"
+      text: "2000gj.choi@gmail.com"
 
-    - label: "Phone"
+    - label: "전화번호"
       icon: "far fa-address-book"
-      text: "+1 900 - 900 - 9000"
+      text: "+82 010 - 1234 - 5678"
 
 ### Portfolio [ portfolio ]
 #items generates from dir /_works/*
 portfolio:
-  title: "Portfolio"
-  subtitle: "my <b>Cases</b>"
-  bg_title: "Portfolio"
+  title: "포트폴리오"
+  subtitle: "대표 <b>작업물</b>"
+  bg_title: "Works"
   button:
     link: "works/"
-    label: "View More"
+    label: "더 보기"

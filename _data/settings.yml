@@ -10,45 +10,44 @@ settings:
 preloader:
   logo:
     image: "assets/img/logo2.png"
-    alt: "Zoé Miller"
+    alt: "로고"
 
 ### Header
 header:
   logo:
-    image: "assets/img/logo2.png"
-    alt: "Zoé Miller"
+    text: "BLOG"
 
 ### Social
-social:
-  - title: "Twitter"
-    icon: "fab fa-twitter"
-    url: "http://twitter.com"
+# social:
+#   - title: "Github"
+#     icon: "fab fa-github"
+#     url: "https://github.com/choi-gj"
 
-  - title: "Dribbble"
-    icon: "fab fa-dribbble"
-    url: "http://dribbble.com"
+#   - title: LinkedIn"
+#     icon: "fab fa-LinkedIn"
+#     url: "https://linkedin.com/in/choigj"
 
-  - title: "Behance"
-    icon: "fab fa-behance"
-    url: "http://behance.com"
+  # - title: "Instagram"
+  #   icon: "fab fa-instagram"
+  #   url: "https://instagram.com/choi-gj"
 
 ### Footer
 footer:
-  developer: "Developed by <strong>bslthemes</strong>"
-  copyright: "<strong>Luique</strong>. All rights reserved"
+  developer: "개발자 - 최경준"
+  copyright: "웹 포트폴리오. All rights reserved"
 
 ### Portfolio Filters Settings
 portfolio:
-  layout: "list" # select works layout options: "Grid" or "List"
+  layout: "grid" # 옵션: "grid" 또는 "list"
   filters:
-    - name: "UI UX Design"
+    - name: "웹 개발"
+      slug: "web-development"
+
+    - name: "앱 개발"
+      slug: "app-development"
+
+    - name: "UI/UX 디자인"
       slug: "ui-ux-design"
 
-    - name: "Photography"
-      slug: "photography"
-
-    - name: "Development"
-      slug: "development"
-
-    - name: "Branding"
-      slug: "branding"
+    - name: "암호화"
+      slug: "cryptography"
