@@ -20,17 +20,17 @@ info:
 description1:
   show: yes
   title: 프로젝트 목표
-  text: "<p>포트폴리오를 겸해 기본적인 동형 암호에 대한 이해를 돕기 위해 작성된 웹 페이지입니다.</p>"
+  text: <p>포트폴리오를 겸해 기본적인 동형 암호에 대한 이해를 돕기 위해 작성된 웹 페이지입니다.</p>
   
 
 gallery:
   - assets/img/works/work2.png
-  - assets/img/blog/work3.png
+  - assets/img/works/work3.png
 
 description2:
   title: 프로젝트 결과
-  text: "<p>저장된 키값과 가중치를 이용하여 입력 벡터 A,B,C를 입력받아 외부의 노출 없이 암,복호화를 진행할 수 있습니다.</p>
-  <p>Donec imperdiet risus at tortor consequat maximus et eget magna. Cras ornare sagittis augue, id sollicitudin justo tristique ut. Nullam ex enim, euismod vel bibendum ultrices, fringilla vel eros. Donec euismod leo lectus, et euismod metus euismod sed. Quisque quis suscipit ipsum, at pellentesque velit. Duis a congue sem.</p>"
+  text: <p>저장된 키값과 가중치를 이용하여 입력 벡터 A,B,C를 입력받아 외부의 노출 없이 암,복호화를 진행할 수 있습니다.</p>
+  
 
 # video:
 #   poster: assets/img/blog/blog9.jpg
