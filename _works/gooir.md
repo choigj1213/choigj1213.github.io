@@ -24,17 +24,16 @@ description1:
   
 
 gallery:
-  - assets/img/works/work5.jpeg
-  - assets/img/blog/blog8.jpg
-  - assets/img/blog/blog6.jpg
+  - assets/img/works/work2.png
+  - assets/img/blog/work3.png
 
 description2:
-  title: Project Result
-  text: "<p>Aliquam a sapien diam. Phasellus pulvinar tellus aliquam eleifend consectetur. Sed bibendum leo quis rutrum aliquetmorbi.</p>
+  title: 프로젝트 결과
+  text: "<p>저장된 키값과 가중치를 이용하여 입력 벡터 A,B,C를 입력받아 외부의 노출 없이 암,복호화를 진행할 수 있습니다.</p>
   <p>Donec imperdiet risus at tortor consequat maximus et eget magna. Cras ornare sagittis augue, id sollicitudin justo tristique ut. Nullam ex enim, euismod vel bibendum ultrices, fringilla vel eros. Donec euismod leo lectus, et euismod metus euismod sed. Quisque quis suscipit ipsum, at pellentesque velit. Duis a congue sem.</p>"
 
-video:
-  poster: assets/img/blog/blog9.jpg
-  id: Gu6z6kIukgg
+# video:
+#   poster: assets/img/blog/blog9.jpg
+#   id: Gu6z6kIukgg
 
 ---
