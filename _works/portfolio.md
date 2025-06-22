@@ -1,34 +1,39 @@
-  layout: works-single
-  title: 최경준의 포트폴리오
-  category: 웹 개발
-  category_slug: web-develop
-  image: /assets/img/123.jpg
-  short_description: 개인 포트폴리오 웹사이트 제작 프로젝트입니다.
-  live_preview: https://portfolio.adobe.com/121b7f79-3e06-4049-b764-98bddca7253d/preview/home
-  full_image: /assets/img/123.jpg
-  info:
-    - label: 제작 연도
-      value: 2023
-    - label: 사용 기술
-      value: React, Tailwind CSS
-    - label: 역할
-      value: 기획, 디자인, 개발
-  description1:
-    show: true
-    title: 프로젝트 목표
-    text: >
-      포트폴리오를 효과적으로 전시하고 전문성을 드러낼 수 있는 웹사이트 제작을 목표로 했습니다.
-      반응형 디자인과 모던한 UI/UX를 적용했습니다.
-  gallery:
-    - /assets/img/123.jpg
-    - /assets/img/123.jpg
-    - /assets/img/123.jpg
-  video:
-    poster: /assets/img/works/portfolio-video-cover.jpg
-    id: AbCdEfGhIjk
-  description2:
-    title: 프로젝트 결과
-    text: >
-      성공적으로 프로젝트를 완료하여 개인 브랜딩과 구직 활동에 활용하고 있습니다.
+---
+# preview details
+layout: works-single
+title: 동형 암호 프로젝트
+category: 암호화
+category_slug: cryptography
+image: assets/img/works/work1.png
+short_description: 최경준의 동형 암호 프로젝트 포트폴리오입니다.
 
+# full details
+live_preview: https://bslthemes.com
+full_image: assets/img/works/work1.png
+info:
+  - label: Year
+    value: 2025
 
+  - label: Technology
+    value: AI, Homomorphic Encryption
+
+description1:
+  show: yes
+  title: 프로젝트 목표
+  text: <p>포트폴리오를 겸해 기본적인 동형 암호에 대한 이해를 돕기 위해 작성된 웹 페이지입니다.</p>
+  
+
+gallery:
+  - assets/img/works/work2.png
+  - assets/img/works/work3.png
+
+description2:
+  title: 프로젝트 결과
+  text: <p>저장된 키값과 가중치를 이용하여 입력 벡터 A,B,C를 입력받아 외부의 노출 없이 암,복호화를 진행할 수 있습니다.</p>
+  
+
+# video:
+#   poster: assets/img/blog/blog9.jpg
+#   id: Gu6z6kIukgg
+
+---
