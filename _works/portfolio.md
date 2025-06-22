@@ -1,4 +1,4 @@
- 
+  layout: works-single
   title: 최경준의 포트폴리오
   category: 웹 개발
   category_slug: web-develop
